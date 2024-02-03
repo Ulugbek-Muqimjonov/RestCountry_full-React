@@ -1,13 +1,12 @@
-import Header from "./components/header/Header"
-import Main from './components/main/Main'
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
 function App() {
-
   return (
     <>
-      <Header/>
-      <Main/>
+      <Header />
+      <Main />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

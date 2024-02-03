@@ -1,75 +1,75 @@
 .hero__list {
-    display: grid;
-    align-items: start;
-    grid-template-columns: 264px;
-    justify-content: center;
-    row-gap: 30px;
-    margin: 0;
-    padding-left: 0;
-    padding-top: 48px;
-    list-style: none;
+  display: grid;
+  align-items: start;
+  grid-template-columns: 264px;
+  justify-content: center;
+  row-gap: 30px;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 48px;
+  list-style: none;
 }
 
 @media only screen and (min-width: 390px) {
-    .hero__list {
-        grid-template-columns: 350px;
-    }
+  .hero__list {
+    grid-template-columns: 350px;
+  }
 }
 @media only screen and (min-width: 500px) {
-    .hero__list {
-        grid-template-columns: 225px 225px;
-        justify-content: space-between;
-    }
+  .hero__list {
+    grid-template-columns: 225px 225px;
+    justify-content: space-between;
+  }
 }
 @media only screen and (min-width: 550px) {
-    .hero__list {
-        grid-template-columns: 250px 250px;
-    }
+  .hero__list {
+    grid-template-columns: 250px 250px;
+  }
 }
 @media only screen and (min-width: 600px) {
-    .hero__list {
-        grid-template-columns: 270px 270px;
-    }
+  .hero__list {
+    grid-template-columns: 270px 270px;
+  }
 }
 @media only screen and (min-width: 700px) {
-    .hero__list {
-        grid-template-columns: 300px 300px;
-        justify-content: space-around;
-    }
+  .hero__list {
+    grid-template-columns: 300px 300px;
+    justify-content: space-around;
+  }
 }
 @media only screen and (min-width: 750px) {
-    .hero__list {
-        grid-template-columns: 340px 340px;
-        justify-content: space-between;
-    }
+  .hero__list {
+    grid-template-columns: 340px 340px;
+    justify-content: space-between;
+  }
 }
 @media only screen and (min-width: 800px) {
-    .hero__list {
-        grid-template-columns: repeat(3,240px);
-    }
+  .hero__list {
+    grid-template-columns: repeat(3, 240px);
+  }
 }
 @media only screen and (min-width: 900px) {
-    .hero__list {
-        grid-template-columns: repeat(3,250px);
-    }
+  .hero__list {
+    grid-template-columns: repeat(3, 250px);
+  }
 }
 @media only screen and (min-width: 950px) {
-    .hero__list {
-        grid-template-columns: repeat(3,270px);
-    }
+  .hero__list {
+    grid-template-columns: repeat(3, 270px);
+  }
 }
 @media only screen and (min-width: 1000px) {
-    .hero__list {
-        grid-template-columns: repeat(3,300px);
-    }
+  .hero__list {
+    grid-template-columns: repeat(3, 300px);
+  }
 }
 @media only screen and (min-width: 1200px) {
-    .hero__list {
-        grid-template-columns: repeat(4,264px);
-    }
+  .hero__list {
+    grid-template-columns: repeat(4, 264px);
+  }
 }
 @media only screen and (min-width: 1300px) {
-    .hero__list {
-        grid-template-columns: repeat(4,264px);
-    }
+  .hero__list {
+    grid-template-columns: repeat(4, 264px);
+  }
 }
